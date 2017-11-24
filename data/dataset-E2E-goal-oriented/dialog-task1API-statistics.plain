@@ -1,0 +1,24 @@
+nb_dialog:
+10000
+
+nb_utterance_total:
+99094
+
+voc_total_len:
+173
+
+voc_non_stop_len:
+98
+
+nb_utterance_per_dialog:
+9.9094
+
+voc_non_stop:
+[u'afraid', u'aren', u'asking', u'atmosphere', u'bad', u'better', u'bit', u'bombay', u'book', u'british', u'business', u'casual', u'change', u'cheap', u'check', u'complicated', u'cuisine', u'day', u'delicious', u'disappointing', u'doesn', u'don', u'entirely', u'expensive', u'fond', u'food', u'forget', u'french', u'friend', u'generally', u'good', u'got', u'ground', u'hard', u'hello', u'help', u'hi', u'hold', u'ideal', u'indian', u'insists', u'italian', u'leaning', u'let', u'like', u'london', u'look', u'looking', u'love', u'madrid', u'make', u'middle', u'minute', u'moderate', u'moment', u'morning', u'nice', u'ok', u'options', u'paris', u'party', u'people', u'pick', u'preference', u'prefers', u'price', u'range', u'ready', u'reasonable', u'reservation', u'restaurant', u'restaurants', u'romantic', u'rome', u'sec', u'silence', u'sorry', u'sounds', u'spanish', u'specific', u'stick', u'stomach', u'sure', u'table', u'tempting', u'think', u'thinking', u'time', u'today', u'try', u'type', u'variety', u'wait', u'wallet', u'want', u'wants', u'way', u'work']
+
+nb_utterance_unic:
+5829
+
+voc_total:
+[u'afraid', u'also', u'always', u'am', u'and', u'another', u'any', u'are', u'aren', u'asking', u'atmosphere', u'bad', u'be', u'better', u'bit', u'bombay', u'book', u'british', u'business', u'but', u'can', u'casual', u'change', u'cheap', u'check', u'complicated', u'could', u'cuisine', u'day', u'delicious', u'disappointing', u'do', u'doesn', u'don', u'due', u'eight', u'else', u'entirely', u'expensive', u'find', u'fond', u'food', u'for', u'forget', u'four', u'french', u'friend', u'generally', u'give', u'go', u'good', u'got', u'ground', u'had', u'hard', u'have', u'hello', u'help', u'hi', u'hold', u'how', u'ideal', u'if', u'in', u'indian', u'insists', u'into', u'is', u'it', u'italian', u'keep', u'last', u'leaning', u'let', u'like', u'london', u'look', u'looking', u'love', u'madrid', u'make', u'many', u'may', u'me', u'middle', u'minute', u'moderate', u'moment', u'more', u'morning', u'my', u'next', u'nice', u'not', u'of', u'often', u'ok', u'on', u'one', u'options', u'or', u'other', u'out', u'paris', u'party', u'people', u'perhaps', u'pick', u'please', u'preference', u'prefers', u'price', u'range', u're', u'ready', u'reasonable', u'reservation', u'restaurant', u'restaurants', u'romantic', u'rome', u'sec', u'see', u'she', u'should', u'silence', u'six', u'so', u'some', u'something', u'sometimes', u'sorry', u'sounds', u'spanish', u'specific', u'stick', u'stomach', u'sure', u'table', u'tempting', u'than', u'that', u'the', u'there', u'think', u'thinking', u'time', u'to', u'today', u'too', u'towards', u'try', u'two', u'type', u'variety', u'very', u'wait', u'wallet', u'want', u'wants', u'was', u'way', u'we', u'what', u'whenever', u'where', u'which', u'will', u'with', u'work', u'would', u'you', u'your']
+
