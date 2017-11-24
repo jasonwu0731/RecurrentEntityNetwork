@@ -5,8 +5,9 @@ from Hong Kong University of Science and Technology(HKUST) Human Language Techno
 ### Setup
 * Clone the repo and the dataset
 * Run ```python REN.py --train --task=1``` to begin train on task 1
-* Run ```python REN.py --train --task=1 --record``` to begin train on task 1 with recorded delexicalization data 
-* Try ```--augment``` to increase the dataset by partial dialog
+* Run ```python REN.py --train --task=1 --record``` to begin train on task 1 with recorded delexicalization (RDL) data 
+* Use ```--augment``` to increase the dataset by partial dialog
+* Use ```--generateRDL``` to generate RDL data (which was generated [here](https://github.com/jasonwu0731/RecurrentEntityNetwork/tree/master/data/processed))
 
 ### Major Dependencies
 - tensorflow 1.2
