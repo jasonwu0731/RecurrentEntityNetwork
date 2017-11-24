@@ -4,7 +4,7 @@ from Hong Kong University of Science and Technology(HKUST) Human Language Techno
 
 Paper: [End-to-End Recurrent Entity Network for Entity-Value Independent Goal-Oriented Dialog Learning]()
 
-<img src="image/REN.pdf">
+<img src="image/REN.jpg">
 
 ### Setup
 * Clone the repo and the dataset
@@ -18,7 +18,7 @@ Paper: [End-to-End Recurrent Entity Network for Entity-Value Independent Goal-Or
 - python 2.7
 
 ### Results
-
+<img src="image/6.jpg">
 
 ### Testing Sets for Competition 
 * Test set 1 uses the same KB as for the train dialogs, and the same set of slots in the queries
