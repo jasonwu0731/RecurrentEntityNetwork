@@ -141,7 +141,7 @@ def generate_RDL_data(FLAGS, testset=None):
             inputtaskfile = DATASET_PATH+TASK_NAME[i]+'-kb1_atmosphere-distr0.5-trn10000.json'
             print "Generating RDL data for ", inputtaskfile
             data, _, _, _, _, _, _, _, _ = load_task([inputtaskfile], FLAGS, testing_ratio=0.0)
-            store_template_json(FLAGS.temp_path+'task'+str(i+1) , kb_path, data)
+            store_template_json(FLAGS.temp_path+TASK_NAME[int(i)] , kb_path, data)
     else:
         data = []
         loop_dir = ['tst4/', 'tst3/', 'tst2/', 'tst1/'] if testset=='all' else ['tst{}/'.format(str(testset))]

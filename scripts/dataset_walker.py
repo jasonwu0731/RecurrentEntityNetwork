@@ -37,14 +37,14 @@ def get_taskfile_db(record=False, taskchosen='',testset='', temp_path=''):
         endfix = "trn10000.json" 
     else:
         endfix = '-RDL.json'
-
+    
+    testing_ratio = 0.1
     names = os.listdir(dest)
     inputtaskfile = []
     for name in names:
         if name.endswith(endfix):
             if taskchosen in ['1','2','3','4','5']:
-                if taskchosen in name:
-                    testing_ratio = 0.1
+                if TASK_NAME[int(taskchosen)] in name:
                     inputtaskfile.append(dest+name)
             else:
                 print "[Error] Please select task 1-5"

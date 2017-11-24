@@ -23,7 +23,7 @@ tf.flags.DEFINE_boolean("train", False, "training the model")
 tf.flags.DEFINE_boolean("generateRDL", False, "generate RDL data")
 tf.flags.DEFINE_string("task", '1', "tasks 1-5")
 tf.flags.DEFINE_string("testset", None, "testset 1-4 or all")
-tf.flags.DEFINE_boolean("record", True, "use RDL")
+tf.flags.DEFINE_boolean("record", False, "use RDL")
 tf.flags.DEFINE_boolean("postprocess", False, "postprocess the result")
 tf.flags.DEFINE_boolean("all_utter", False, "False for only use bot utterances ")
 # Parameters
@@ -42,7 +42,7 @@ tf.flags.DEFINE_integer("random_state", 88, "Random state.")
 tf.flags.DEFINE_boolean("speaker_info", True, "Add speaker information to embedding.")
 tf.flags.DEFINE_boolean("time_info_sents", True, "Add time information for per-response.")
 # Methods 
-tf.flags.DEFINE_boolean("augment", True, "increase dataset based on origin one.")
+tf.flags.DEFINE_boolean("augment", False, "increase dataset based on origin one.")
 tf.flags.DEFINE_boolean('rm_unk_sent', True, "Give unk sent lower ranking ")
 # File Path 
 tf.flags.DEFINE_string("model_path", 'entnet-train-models/', "Directory containing database")
