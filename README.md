@@ -2,7 +2,7 @@
 ## End-to-End Goal Oriented Dialog Learning
 from Hong Kong University of Science and Technology(HKUST) Human Language Technology Center
 
-Paper: [End-to-End Recurrent Entity Network for Entity-Value Independent Goal-Oriented Dialog Learning]()
+Paper: [End-to-End Recurrent Entity Network for Entity-Value Independent Goal-Oriented Dialog Learning](http://workshop.colips.org/dstc6/papers/track1_paper02_wu.pdf)
 
 <img src="image/REN.jpg">
 
